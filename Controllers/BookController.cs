@@ -12,7 +12,6 @@ namespace nhibernate_mvc.api
     [Route("api/[controller]")]
     public class BookController : Controller
     {
-        //Repository _repository = Repository.Instance;
         private IConfiguration Configuration;
 
         private readonly IOptions<ApplicationSettings> _AppSettings; 
